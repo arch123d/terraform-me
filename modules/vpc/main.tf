@@ -6,7 +6,7 @@ resource "aws_vpc" "main-vpc" {
    }
 }
 resource "aws_subnet" "private_subnet" {
-  vpc_id     = aws_vpc.main.id
+  vpc_id = aws_vpc.main.id
   cidr_block = "var.private_subnet_cidr"
   tags = {
     Name = "$(var.project)-private-sub"
