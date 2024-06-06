@@ -1,4 +1,4 @@
- provider "github" {
+# provider "github" {
    token =""
  }
  resource "github_repository" "terraform" {
