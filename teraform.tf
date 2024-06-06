@@ -5,14 +5,14 @@
 #}
 
 
-provider "aws" {
-    region = "us-east-2"    
-}
+# provider "aws" {
+#     region = "us-east-2"    
+# }
 
-resource "aws" "instance" "my-instance" {
-    ami = ""
-    key_name = ""
-    instance_type = "t2.micro "
-    vpc_security_group_ids = "[]"
-} 
+# resource "aws" "instance" "my-instance" {
+#     ami = ""
+#     key_name = ""
+#     instance_type = "t2.micro "
+#     vpc_security_group_ids = "[]"
+# } 
     
