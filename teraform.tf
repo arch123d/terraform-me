@@ -14,5 +14,5 @@
 #     key_name = ""
 #     instance_type = "t2.micro "
 #     vpc_security_group_ids = "[]"
-# } 
+} 
     
